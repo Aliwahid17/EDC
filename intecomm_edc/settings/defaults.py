@@ -33,9 +33,7 @@ env = environ.Env(
     DJANGO_DEBUG_TOOLBAR_ENABLED=(bool, False),
 )
 
-# DEBUG = env("DJANGO_DEBUG")
-DEBUG = True
-print(DEBUG)
+DEBUG = env("DJANGO_DEBUG")
 # DJANGO_DEBUG_TOOLBAR_ENABLED = False  # env("DJANGO_DEBUG_TOOLBAR_ENABLED")
 DJANGO_DEBUG_TOOLBAR_ENABLED = False
 EDC_APP_NAME = "intecomm_edc"
